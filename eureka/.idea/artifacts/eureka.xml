@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eureka">
+    <output-path>$PROJECT_DIR$/out/artifacts/eureka</output-path>
+    <root id="archive" name="eureka.jar" />
+  </artifact>
+</component>
