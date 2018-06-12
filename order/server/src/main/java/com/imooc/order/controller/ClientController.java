@@ -14,10 +14,12 @@ public class ClientController {
     @Autowired
     private ProductClient productClient;
 
-    @GetMapping("/msgForOrder")
+    @GetMapping("/getProductMsg")
     public String getProductMsg() {
         String response = productClient.msg();
         log.info("response={}", response);
         return response;
     }
+
+
 }

@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0c2bdbb-9c01-4cd3-941c-83fe06e25804" name="Default" comment="product服务拆分">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/OrderApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/VO/ResultVO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/controller/ClientController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/controller/EnvController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/controller/GirlController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/controller/OrderController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/converter/OrderForm2OrderDTOConverter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/dataobject/OrderDetail.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/dataobject/OrderMaster.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/dataobject/ProductInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/dto/CartDTO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/dto/OrderDTO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/enums/OrderStatusEnum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/enums/PayStatusEnum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/enums/ResultEnum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/exception/OrderException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/form/OrderForm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/repository/OrderDetailRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/repository/OrderMasterRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/service/OrderService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/service/impl/OrderServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/utils/KeyUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/utils/ResultVOUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../order/server/src/test/java/com/imooc/order/OrderApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/../order/client/pom.xml" afterPath="$PROJECT_DIR$/../order/client/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../order/common/pom.xml" afterPath="$PROJECT_DIR$/../order/common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../order/pom.xml" afterPath="$PROJECT_DIR$/../order/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../order/server/pom.xml" afterPath="$PROJECT_DIR$/../order/server/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/controller/ClientController.java" afterPath="$PROJECT_DIR$/../order/server/src/main/java/com/imooc/order/controller/ClientController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,8 +22,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="-2049">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -70,8 +42,38 @@
       <file leaf-file-name="ProductClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/com/imooc/product/client/ProductClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductInfoOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/imooc/product/common/ProductInfoOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecreaseStockInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/imooc/product/common/DecreaseStockInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -90,6 +92,7 @@
     <findStrings>
       <find>郑学炜</find>
       <find>廖师兄</find>
+      <find>client</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -157,7 +160,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1920" />
     <option name="y" value="21" />
     <option name="width" value="1351" />
@@ -225,6 +228,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="product" type="b2602c69:ProjectViewProjectNode" />
@@ -391,7 +429,7 @@
       <workItem from="1528763903319" duration="23000" />
       <workItem from="1528764001167" duration="67000" />
       <workItem from="1528764174681" duration="8166000" />
-      <workItem from="1528788224047" duration="6105000" />
+      <workItem from="1528788224047" duration="7365000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1528764272386</created>
@@ -432,15 +470,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18461000" />
+    <option name="totallyTimeSpent" value="19721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="21" width="1351" height="1010" extended-state="0" />
+    <frame x="1920" y="21" width="1351" height="1010" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2687839" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06041828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -457,7 +495,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47434434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24013157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39110604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37058154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3051898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -773,22 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/imooc/product/common/DecreaseStockInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/imooc/product/common/ProductInfoOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/imooc/product/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -855,14 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/imooc/product/ProductApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -881,16 +895,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="89">
           <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/imooc/product/common/ProductInfoOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/imooc/product/common/DecreaseStockInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2049">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/imooc/product/client/ProductClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="12" />
           <folding />
         </state>
       </provider>
