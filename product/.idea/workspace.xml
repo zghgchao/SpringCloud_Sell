@@ -20,8 +20,8 @@
       <file leaf-file-name="ServerController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/product/controller/ServerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -324,12 +324,12 @@
       <workItem from="1528763626267" duration="211000" />
       <workItem from="1528763903319" duration="23000" />
       <workItem from="1528764001167" duration="67000" />
-      <workItem from="1528764174681" duration="28000" />
+      <workItem from="1528764174681" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4218000" />
+    <option name="totallyTimeSpent" value="4269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="234" y="23" width="1456" height="1045" extended-state="0" />
@@ -374,6 +374,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/product/controller/ServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
