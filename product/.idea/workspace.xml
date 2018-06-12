@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0c2bdbb-9c01-4cd3-941c-83fe06e25804" name="Default" comment="product服务拆分">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../config/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../config/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../config/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../config/config.iml" />
-      <change beforePath="$PROJECT_DIR$/../order/server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../order/server/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" />
-    </list>
+    <list default="true" id="b0c2bdbb-9c01-4cd3-941c-83fe06e25804" name="Default" comment="product服务拆分" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/client/target/" />
