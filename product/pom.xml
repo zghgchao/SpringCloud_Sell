@@ -52,7 +52,7 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-    </dependencies>
+     </dependencies>
 
 
     <dependencyManagement>
